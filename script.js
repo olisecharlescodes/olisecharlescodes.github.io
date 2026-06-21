@@ -1,0 +1,1 @@
+const t=document.getElementById("typing");const full=t.textContent;t.textContent="";let i=0;function type(){if(i<full.length){t.textContent+=full.charAt(i++);setTimeout(type,28)}}type();
